@@ -1,0 +1,7 @@
+{
+  "name": "Saffron Spice - Smart Restaurant System",
+  "description": "A premium Indian restaurant platform with real-time reservations, online ordering, AI recommendations, and a comprehensive admin management dashboard.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
