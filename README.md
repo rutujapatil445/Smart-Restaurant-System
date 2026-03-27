@@ -1,25 +1,39 @@
-<<<<<<< HEAD
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🌶️ Saffron Spice - Smart Restaurant Management System
 
-# Run and deploy your AI Studio app
+Saffron Spice is a premium, full-stack web application designed to modernize the dining experience. It combines a high-end customer interface with powerful AI tools and a robust administrative backend.
 
-This contains everything you need to run your app locally.
+## ✨ Key Features
 
-View your app in AI Studio: https://ai.studio/apps/156f5833-8ecb-47ed-a295-55735b7fde38
+### 🛒 Customer Experience
+- **Interactive Menu:** Browse dishes with high-quality imagery and real-time availability.
+- **Smart Checkout:** Seamless ordering process with multiple payment methods (COD, Card, Wallet).
+- **Real-time Reservations:** Secure tables with instant feedback and email confirmations.
+- **AI Assistant:** A Gemini-powered chatbot to answer questions about the menu, ingredients, and restaurant hours.
 
-## Run Locally
+### 🤖 AI Creative Studio
+- **Image Analysis:** Upload food photos to get detailed descriptions, mood analysis, and ingredient insights using Gemini 3 Flash.
+- **Personalized Recommendations:** AI-driven dish suggestions based on popularity and pairings.
 
-**Prerequisites:**  Node.js
+### 🛠️ Admin Control Panel
+- **Live Dashboard:** Real-time analytics for revenue, orders, and guest counts.
+- **Menu Management:** Dynamic category and item control with image upload support.
+- **Order Tracking:** Manage the lifecycle of customer orders (Pending → Processing → Completed).
+- **Reservation System:** View and manage guest lists with automated email notifications.
+- **Settings & SEO:** Full control over restaurant branding, hours, and search engine optimization.
 
+## 🚀 Tech Stack
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
-=======
-# Smart-Restaurant-System
-🌶️ Saffron Spice is a smart restaurant management system with an interactive menu, AI chatbot, real-time reservations, and seamless ordering. It features an admin dashboard for orders, analytics, and menu control, built using React, Node.js, SQLite, and AI integration for a modern dining experience.
->>>>>>> 87ddd87fe9ed29950041f39f161ab3a7e75e39d8
+- **Frontend:** React 19, Vite, Tailwind CSS, Motion (Animations), Lucide Icons.
+- **Backend:** Node.js, Express.
+- **Database:** SQLite (Better-SQLite3) for local persistence.
+- **AI Integration:** Google Gemini API (@google/genai).
+- **Authentication:** Firebase Auth & JWT.
+- **Real-time:** WebSockets (WS) for instant order/reservation alerts.
+- **Email:** Nodemailer (SMTP integration).
+
+## 🛠️ Setup & Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/saffron-spice.git
+   cd saffron-spice
